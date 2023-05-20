@@ -4,7 +4,7 @@ import "./zombiehelper.sol";
 
 contract ZombieAttack is ZombieHelper {
   uint randNonce = 0;
-  uint attackVictoryProbability = 70;
+  uint attackVictoryProbability = 60;
 
   function randMod(uint _modulus) internal returns(uint) {
     randNonce = randNonce.add(1);
